@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  library: one
+  title: MyString
+  books: 1
+  magazines: 1
+  newspapers: 1
+  collections: 1
+  dessertations: 1
+  essays: 1
+
+two:
+  library: two
+  title: MyString
+  books: 1
+  magazines: 1
+  newspapers: 1
+  collections: 1
+  dessertations: 1
+  essays: 1

@@ -48,9 +48,6 @@ gem "sassc-rails"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-#For checking info about gem visit https://github.com/matthuhiggins/foreigner
-gem 'foreigner'
-
 #For checking info about gem visit https://github.com/thoughtbot/pacecar
 gem 'pacecar'
 
@@ -69,7 +66,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  
+
   # For checking instalation https://github.com/rubocop/rubocop
   gem 'rubocop', '~> 1.56', require: false
 end

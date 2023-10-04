@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  library: one
+  first_name: MyString
+  last_name: MyString
+  position: MyString
+  birt_day: 2023-10-05
+  start_work_date: 2023-10-05
+  salary: 9.99
+  education: MyString
+
+two:
+  library: two
+  first_name: MyString
+  last_name: MyString
+  position: MyString
+  birt_day: 2023-10-05
+  start_work_date: 2023-10-05
+  salary: 9.99
+  education: MyString

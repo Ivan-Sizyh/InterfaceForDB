@@ -13,11 +13,19 @@ Things you may want to cover:
 
 7.0.8
 
+* Entities
+
+Type, Library, Employee, Found, Replenishment
+
 * System dependencies
 
 * Configuration
 
 * Database creation
+
+For create DB: rails db:create
+For confirm migrations: rails db:migration
+For seeding: rails db:seed
 
 * Database initialization
 
