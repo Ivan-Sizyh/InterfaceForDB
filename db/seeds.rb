@@ -1,7 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+# Создаем типы библиотек
+Type.create!(library_type: "Универсальная")
+Type.create!(library_type: "Взрослая")
+Type.create!(library_type: "Школьная")
+Type.create!(library_type: "Централизованная")
+Type.create!(library_type: "Детская")
+  
