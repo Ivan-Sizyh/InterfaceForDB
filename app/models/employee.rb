@@ -1,5 +1,6 @@
 class Employee < ApplicationRecord
   belongs_to :library
+  has_many :replenishment, class_name: 'Replenishment', foreign_key: 'employee_id', dependent: :destroy
 
   validates :first_name, presence: true, length: { minimum: 2, maximum: 255 }
   validates :last_name, presence: true, length: { minimum: 2, maximum: 255 }

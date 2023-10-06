@@ -76,4 +76,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem 'launchy'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner-active_record'
+  gem 'shoulda-matchers'
+  gem 'faker'
 end

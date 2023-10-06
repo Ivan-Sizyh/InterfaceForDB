@@ -3,19 +3,19 @@
 one:
   library: one
   employee: one
-  found: one
-  data_receipt: 2023-10-05
+  fund: one
+  data_receipt: 2023-10-06
   source_title: MyString
-  data_publication: 2023-10-05
+  data_replenishment: 2023-10-06
   publishing_house: MyString
   instances: 1
 
 two:
   library: two
   employee: two
-  found: two
-  data_receipt: 2023-10-05
+  fund: two
+  data_receipt: 2023-10-06
   source_title: MyString
-  data_publication: 2023-10-05
+  data_replenishment: 2023-10-06
   publishing_house: MyString
   instances: 1
