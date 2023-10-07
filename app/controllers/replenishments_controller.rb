@@ -16,7 +16,7 @@ class ReplenishmentsController < ApplicationController
     @replenishment = Replenishment.new(replenishment_params)
 
     if @replenishment.save
-      redirect_to @replenishment, notice: 'Replenishment was successfully created.'
+      redirect_to @replenishment
     else
       render :new
     end
@@ -27,7 +27,7 @@ class ReplenishmentsController < ApplicationController
 
   def update
     if @replenishment.update(replenishment_params)
-      redirect_to @replenishment, notice: 'Replenishment was successfully updated.'
+      redirect_to @replenishment
     else
       render :edit
     end
@@ -35,7 +35,7 @@ class ReplenishmentsController < ApplicationController
 
   def destroy
     @replenishment.destroy
-    redirect_to replenishments_url, notice: 'Replenishment was successfully destroyed.'
+    redirect_to replenishments_url
   end
 
   private
